@@ -565,7 +565,112 @@ footer {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+
+    main, header {
+        width: 85%;
+        margin: 0 7.5%;
+    }
+
+    #homepageMain {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .homepageImgSection {
+        width: 48%;
+    }
+
+    .portfolioImgContainer {
+        column-gap: 4%;
+        row-gap: 30px;
+    }
+
+    #aboutMain {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    #mobileAboutH2 {
+        display: block;
+    }
+
+    #desktopAboutH2 {
+        display: none;
+    }
+
+    #aboutContainer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 30px;
+    }
+
+    #appsContainer {
+        width: 60%;
+        text-align: center;
+    }
+
+    #appsContainer div {
+        justify-content: center;
+    }
+
+    #aboutImgContainer {
+        width: 60%;
+    }
+
+    #aboutTextContainer {
+        width: 100%;
+    }
+
+    #aboutMain p {
+        font-size: 22px;
+    }
+
+    #contactSubContainer {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    #contactEmailContainer {
+        border-left: none;
+        border-right: none;
+        border-top: #FC5A4F solid 2px;
+        border-bottom: #FC5A4F solid 2px;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    #graphicBody {
+        height: 100vh;
+        justify-content: space-between;
+    }
+
+    #graphicContainer img {
+        width: 48%;
+    }
+
+    #graphicContainer .logo {
+        width: 100%;
+    }
+
+    #graphic2Body .affiche {
+        width: 60%;
+    }
+
+    #graphicContainer .affiche6 {
+        width: 45%;
+    }
+
+    #graphicContainer .ticket {
+        width: 92.5%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
 
     body {
         height: auto;
@@ -772,6 +877,9 @@ footer {
         row-gap: 13px;
     }
 
+    #contactSubContainer {
+        flex-direction: column;
+    }
 
     #contactSubContainer .contactTitle {
         font-size: 20px;
